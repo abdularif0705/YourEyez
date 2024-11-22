@@ -1,8 +1,9 @@
-# Your Eyes: An AI-powered vision aid
+# Your Eyez: An AI-powered vision aid
 
 [Click to watch Demo](https://youtu.be/1F4wq1y6iRo&t=80s)
 
 ## Pictures
+
 ![Complicated](img/complicated.jpg)
 
 ![vending](img/vending_machine.jpg)
@@ -11,7 +12,7 @@
 
 ## Overview
 
-Welcome to **Your Eyes**, an innovative app designed to help visually impaired individuals navigate their world with confidence. By harnessing the power of advanced AI technologies, Your Eyes provides real-time audio feedback, painting a vivid picture of the surroundings.
+Welcome to **Your Eyez**, an innovative app designed to help visually impaired individuals navigate their world with confidence. By harnessing the power of advanced AI technologies, Your Eyez provides real-time audio feedback, painting a vivid picture of the surroundings.
 
 ## Core Technologies
 
@@ -82,6 +83,6 @@ Open http://localhost:3000 in your browser.
 - **Multilingual Support**: Expand language options for audio feedback to cater to a wider audience.
 - **Open-source Development**: Foster community involvement and collaboration to further enhance the app's capabilities.
 
-We are excited about the possibilities that Your Eyes holds and are committed to its continued development and improvement.
+We are excited about the possibilities that Your Eyez holds and are committed to its continued development and improvement.
 
-Join us in building a future where everyone can see the world through Your Eyes.
+Join us in building a future where everyone can see the world through Your Eyez.
