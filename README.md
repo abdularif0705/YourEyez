@@ -29,7 +29,7 @@ We achieved real-time object detection with a latency of just ~100ms by optimizi
 
 - **YOLOv7**: Powers real-time object detection, running over 10 inferences per second on-device. This ensures immediate identification and tracking of objects, providing crucial information about obstacles and points of interest.
 - **GPT-4 Vision**: Delivers insightful and contextual scene descriptions, capturing details beyond simple object recognition to enhance user understanding of their environment.
-- **ONNX Runtime**: Utilized for efficient model deployment on WebAssembly, enabling high-performance inference directly in the browser without server dependency.
+- **ONNX Runtime on WebAssembly:** Optimized inferencing directly in-browser, eliminating latency associated with server-side dependencies.
 
 ## 🔉 Audio Processing and Text-to-Speech (TTS):
 
@@ -49,6 +49,20 @@ We achieved real-time object detection with a latency of just ~100ms by optimizi
 - **Enhanced Independence**: Navigate environments with confidence and safety.
 - **Improved Situational Awareness**: Gain a deeper understanding of surroundings, fostering a sense of connection and engagement with the world.
 - **Greater Accessibility**: Participate in activities previously challenging, opening new possibilities for visually impaired individuals.
+
+## 💡 Tradeoff Analysis: TensorFlow vs. ONNX
+
+- **Why ONNX Runtime?**
+
+  - **Performance:** Faster inferences on WebAssembly due to lightweight architecture.
+  - **Device Compatibility:** Optimized for running directly in browsers, reducing infrastructure requirements.
+  - **Flexibility:** Simplifies deploying models across platforms with minimal code adjustments.
+
+- **Why Not TensorFlow?**
+  - **Size & Overhead:** TensorFlow's larger runtime size made it less suitable for real-time, browser-based inferencing.
+  - **Latency:** Higher latency compared to ONNX when running in constrained environments like mobile browsers.
+
+By carefully evaluating these tradeoffs, we ensured **Your Eyez** delivers a fast, reliable, and efficient user experience.
 
 ## 🛠️ Usage
 
