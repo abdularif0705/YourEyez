@@ -52,15 +52,17 @@ We achieved real-time object detection with a latency of just ~100ms by optimizi
 
 ## 💡 Tradeoff Analysis: TensorFlow vs. ONNX
 
-- **Why ONNX Runtime?**
+#### **Why ONNX Runtime?**
 
-  - **Performance:** Faster inferences on WebAssembly due to lightweight architecture.
-  - **Device Compatibility:** Optimized for running directly in browsers, reducing infrastructure requirements.
-  - **Flexibility:** Simplifies deploying models across platforms with minimal code adjustments.
+- **Performance:** Optimized for WebAssembly, delivering near-native speeds essential for real-time browser applications.
+- **Device Compatibility:** Runs directly in browsers, reducing server dependencies and ensuring low latency.
+- **Flexibility:** Enables seamless cross-platform deployment with minimal code changes.
 
-- **Why Not TensorFlow?**
-  - **Size & Overhead:** TensorFlow's larger runtime size made it less suitable for real-time, browser-based inferencing.
-  - **Latency:** Higher latency compared to ONNX when running in constrained environments like mobile browsers.
+#### **Why Not TensorFlow?**
+
+- **Size & Overhead:** Larger runtime increases load times and resource usage, making it less efficient for browser-based applications.
+- **Latency:** Higher latency in constrained environments impacts real-time responsiveness.
+- **Deployment Complexity:** Requires more effort to optimize for varied devices compared to ONNX.
 
 By carefully evaluating these tradeoffs, we ensured **Your Eyez** delivers a fast, reliable, and efficient user experience.
 
